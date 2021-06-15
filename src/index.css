@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box !important;
+}
+
+.navbar{
+    background-color:blue;
+}
+
+.b1{
+    border: 3px solid red;
+    /* box-sizing: border-box !important; */
+}
