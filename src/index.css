@@ -10,3 +10,75 @@
     border: 3px solid red;
     /* box-sizing: border-box !important; */
 }
+
+
+/* service start */
+
+.servive-heading{
+    font-weight: bold;
+}
+
+.servive-para{
+    text-align: center;
+    font-size: 17px;
+}
+
+
+.service-1{
+    background-color: rgb(243,177,26);
+}
+
+.ser-all{
+    background-color: rgb(245,245,245);
+
+}
+.serives-off{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.service-head-2{
+    font-weight: bold;
+    color: rgb(85,99,131);
+}
+.service-para2{
+    color:grey;
+
+}
+
+.service-icon{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-icon .fa-check{
+    color: rgb(85,99,131);
+
+}
+
+.service-icon span{
+    color:black !important;
+    font-weight: lighter !important;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-style: normal; */
+    font-weight: lighter;
+}
+
+.service-img{
+ /* text-justify: right;\\    */
+ /* justify-content: right !important; */
+ /* align-items: flex-start; */
+    /* justify-self: self-start; */
+    /* text-align: right; */
+    text-align-last: right;
+
+}
+
+.btn-rounded{
+    border-radius:30px 30px 30px 30px ;
+    /* padding: ; */
+}
+
+
+/* service End */

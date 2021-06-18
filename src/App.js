@@ -1,7 +1,8 @@
 import React, { Component, useState } from "react";
 import { MDBIcon, MDBBtn, MDBCol, MDBContainer, MDBRow, MDBCard, MDBCardBody } from "mdbreact";
 import "./index.css";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
+import Servives from "./components/Services";
 import logo from "./logo.png";
 
 
@@ -9,7 +10,8 @@ const App = () => {
 
   return (
     <div>
-     <Navbar></Navbar>
+      <Navbar />
+      <Servives />
     </div>
 
   )
