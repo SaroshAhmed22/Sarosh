@@ -72,7 +72,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <MDBBtn className=" mt-3 btn-rounded deep-orange">Deep-orange</MDBBtn>
+                        <MDBBtn className=" px-5 text-white mt-3 btn-rounded ">learn More</MDBBtn>
                     </div>
                     <div className="col-md-6 col-12">
                         <div className="service-img">
@@ -81,9 +81,47 @@ const Services = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="container-fluid service-sec3">
+                <div className="">
+                    <div className="row">
+                        <div className="col-md-6 service-sec3a col-12 mt-5">
+                            <div className="ml-5 px-5">
+                                <h4 className="text-white mt-5">Make Your First Move</h4>
+                                <h1 className="text-white">Share Your Idea With Us</h1>
+                                <h5 className="text-white mb-5">Contact our experts NOW to begin crafting your project.</h5>
+                            </div>
+                        </div>
+
+                        <div className=" col-md-6 service-sec3b mt-5 col-12 d-flex">
+                            <div>
+                                <MDBBtn className=" px-5 text-white mt-5 btn-rounded2 deep-orange"><MDBIcon className="" icon="boxes" size="lg" /><span className="px-4">Select Package</span></MDBBtn>
+                                <div className="mt-3 px-3">
+                                    <MDBIcon className="text-white" icon="phone" size="lg" />
+                                    <span className="px-4 text-white">Contact Number : +1 702 805 0826
+                                    </span>
+                                </div>
+                            </div>
+                            <div>
+                                <MDBBtn className=" service-last-btn px-5 text-white mt-5 btn-rounded2 deep-orange">
+                                    <MDBIcon far icon="edit" className="edit" size="lg"></MDBIcon>
+                                    <span className="px-4">request a quote</span></MDBBtn>
+                                <div className="mt-3 px-4  ">
+                                    <MDBIcon far icon="comments" size="lg" className="text-white " />
+                                    <span className="px-4 text-white">Start Live Chat
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     )
 }
-
 
 export default Services;

@@ -78,7 +78,47 @@
 .btn-rounded{
     border-radius:30px 30px 30px 30px ;
     /* padding: ; */
+    font-weight: bold;
+    background-color: rgb(85,99,131) !important;
+
 }
+
+.service-sec3a{
+    background-color: rgb(80,21,129);
+
+}
+
+.btn-rounded2{
+    background-color: rgb(243,177,26) ;
+    border-radius:30px 30px 30px 30px ;
+    border:2px solid white;
+    /* height: 100px; */
+    /* padding :15px 100px !important; */
+    background-color: rgb(39 ,43 , 123) !important;
+}
+
+.service-sec3b{
+    background-color: rgb(39 ,43 , 123) !important;
+}
+
+.service-last-btn{
+    background-color:rgb(223,223,225) !important;
+}
+
+.service-last-btn span , .edit{
+    color: rgb(39 ,43 , 123) ; 
+}
+
+.service-last-btn:hover{
+    background-color: rgb(1 ,22 , 69) !important;
+    /* color: white; */
+}
+/* 
+.service-last-btn:hover >.service-last-btn span , .edit {
+    color: white;
+} */
+
+
 
 
 /* service End */
