@@ -4,6 +4,7 @@ import "./index.css";
 import Navbar from "./components/Navbar";
 import Servives from "./components/Services";
 import logo from "./logo.png";
+import Portfolio from "./components/Portfolio";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <div>
       <Navbar />
       <Servives />
+      <Portfolio />
     </div>
 
   )
