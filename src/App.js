@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Servives from "./components/Services";
 import logo from "./logo.png";
 import Portfolio from "./components/Portfolio";
+import Packages from './components/Packages'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar />
       <Servives />
       <Portfolio />
+      <Packages />
     </div>
 
   )
