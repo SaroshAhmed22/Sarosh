@@ -3,6 +3,10 @@
     /* overflow-x: hidden; */
 }
 
+ul li{
+    list-style: none;
+}
+
 .navbar{
     background-color:blue;
 }
@@ -10,6 +14,13 @@
 .b1{
     border: 3px solid red;
     /* box-sizing: border-box !important; */
+    /* float: left !important; */
+    /* display: inline-block !important; */
+    justify-content: left;
+}
+
+.ib{
+    display: inline-flex;
 }
 
 
@@ -168,8 +179,7 @@
 /* Package pricing Start  */
 .tag {
 	display: inline-block;
-  
-  width: auto;
+    width: auto;
 	height: 38px;
 	
 	background-color: #979797;
@@ -180,7 +190,7 @@
 	border-left: 1px solid #979797;
 
 	/* This makes room for the triangle */
-	margin-left: 19px;
+	/* margin-left: 19px; */
 	
 	position: relative;
 	
@@ -189,6 +199,8 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 22px;
 	line-height: 38px;
+    /* float: right !important; */
+
 
 	padding: 0 10px 0 10px;
 }
@@ -206,6 +218,29 @@
 	border-right: 19px solid #979797;
 }
 
+.tag2{
+  /* align-items: flex-end; */
+    /* align-content: right; */
+    /* border-top: 10px solid; */
+    /* text-align: right !important; */
+    /* text-align-last: right; */
+    /* float: right !important; */
+    /* margin-right: 30px !important; */
+    margin-left:auto;
+    margin-right:0;
+    height: fit-content;
+}
 
+/* .pricinglist{
+    margin-right:auto !important;
+    margin-left:0 !important;
+} */
+
+.pricinglist{
+
+    flex-direction: column;
+    /* align-items: baseline; */
+
+}
 
 /* Package pricing End  */

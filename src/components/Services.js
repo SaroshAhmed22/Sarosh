@@ -20,21 +20,21 @@ const Services = () => {
                     <div className=" col-md-2 col-6  ser-all">
                         <div className="text-center mt-4 py-2 ">
 
-                            <i class="fa fa-desktop fa-2x" aria-hidden="true"></i>
+                            <i className="fa fa-desktop fa-2x" aria-hidden="true"></i>
                         </div>
                         <h6 className="pt-2 text-center">Web Design </h6>
                     </div>
 
                     <div className="col-md-2 col-6  ser-all  ">
                         <div className="text-center mt-4 py-2 ">
-                            <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+                            <i className="fa fa-cogs fa-2x" aria-hidden="true"></i>
                         </div>
                         <h6 className="pt-2 text-center">Search Engine Optimazation</h6>
                     </div>
 
                     <div className="col-md-2 col-6  ser-all ">
                         <div className="text-center mt-4 py-2">
-                            <i class="fa fa-file-video-o fa-2x" aria-hidden="true"></i>
+                            <i className="fa fa-file-video-o fa-2x" aria-hidden="true"></i>
                         </div>
                         <h6 className="pt-2 text-center">Video Animation</h6>
                     </div>
@@ -55,11 +55,11 @@ const Services = () => {
                         <div className="row mt-3">
                             <div className="col-md-6 col-12">
                                 <div class="service-icon">
-                                    <i class="fa fa-check" aria-hidden="true"><span className="px-2">3D Animated Logo Design</span></i>
-                                    <i class="mt-2 fa fa-check" aria-hidden="true"><span className="px-2">Animated Logo Design</span></i>
-                                    <i class=" mt-2 fa fa-check" aria-hidden="true"><span className="px-2">2D Animated Logo Design</span></i>
-                                    <i class="mt-2 fa fa-check" aria-hidden="true"><span className="px-2">Logo Re-Design</span></i>
-                                    <i class="mt-2 fa fa-check" aria-hidden="true"><span className="px-2">Iconic Logo Design</span></i>
+                                    <i className="fa fa-check" aria-hidden="true"><span className="px-2">3D Animated Logo Design</span></i>
+                                    <i className="mt-2 fa fa-check" aria-hidden="true"><span className="px-2">Animated Logo Design</span></i>
+                                    <i className=" mt-2 fa fa-check" aria-hidden="true"><span className="px-2">2D Animated Logo Design</span></i>
+                                    <i className="mt-2 fa fa-check" aria-hidden="true"><span className="px-2">Logo Re-Design</span></i>
+                                    <i className="mt-2 fa fa-check" aria-hidden="true"><span className="px-2">Iconic Logo Design</span></i>
                                 </div>
                             </div>
                             <div className="col-md-6 col-12">

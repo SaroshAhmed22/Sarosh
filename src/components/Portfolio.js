@@ -1,6 +1,6 @@
 import React, { useState, Component } from "react";
 import { MDBIcon, MDBBtn } from "mdbreact";
-import Web from "./Portfolio-sections/Web"
+// import Web from "./Portfolio-sections/Web"
 
 
 
@@ -35,7 +35,6 @@ const Portfolio = () => {
                 </div>
             </div>
 
-            <Web />
         </div>
     )
 }

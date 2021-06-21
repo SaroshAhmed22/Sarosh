@@ -11,12 +11,12 @@ import Packages from './components/Packages'
 const App = () => {
 
   return (
-    <div>
+    <React.Fragment>
       <Navbar />
       <Servives />
       <Portfolio />
       <Packages />
-    </div>
+    </React.Fragment>
 
   )
 }
