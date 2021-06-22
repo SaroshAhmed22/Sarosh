@@ -6,6 +6,10 @@ import Servives from "./components/Services";
 import logo from "./logo.png";
 import Portfolio from "./components/Portfolio";
 import Packages from './components/Packages'
+import Test from './components/Test'
+import Combo from './components/Combo'
+import Onlybtn from './components/Onlybtn'
+import Innovation from './components/Innovation'
 
 
 const App = () => {
@@ -16,6 +20,10 @@ const App = () => {
       <Servives />
       <Portfolio />
       <Packages />
+      <Onlybtn />
+      <Test />
+      <Combo />
+      <Innovation />
     </React.Fragment>
 
   )

@@ -17,7 +17,8 @@ const Packages = () => {
 
             {Pricingdata.map(function (data) {
                 return <Package_pricing 
-                    class="col-md-9 col-12"
+                    heading1={data.heading1}                    
+                    heading2={data.heading2}                    
                     firstprice={data.firstprice}
                     secondprice={data. secondprice}
                     listdata1={data.listdata1}

@@ -7,16 +7,20 @@ ul li{
     list-style: none;
 }
 
+
+.fwb{
+    font-weight: bold;
+}
+
 .navbar{
     background-color:blue;
 }
 
 .b1{
     border: 3px solid red;
-    /* box-sizing: border-box !important; */
-    /* float: left !important; */
-    /* display: inline-block !important; */
-    justify-content: left;
+    /* border-radius: 40px; */
+    /* border: radius right 10px;; */
+    /* border-radius: 20px 20px 0px 0px ; */
 }
 
 .ib{
@@ -243,4 +247,208 @@ ul li{
 
 }
 
+
+.pkg-pric-btn{
+    border: 1px solid rgb(1 ,22 , 69);
+    color: rgb(1 ,22 , 69) ;
+    border-radius: 20px;
+    background-color:  white !important;
+    height: 45px;
+    width: 110px !important;
+
+}
+
+.pkg-pric-last>span{
+    /* border: 2px solid; */
+    font-size: 12px;
+    color: gray;
+}
+
+.sms{
+    color:rgb(1 ,22 , 69) !important;
+}
+
+.firstprice{
+    color:rgb(1 ,22 , 69) ;
+
+}
+
+
+.pkg-pric-last>p{
+    /* border-top: 1px solid; */
+    font-weight: bold;
+    color:rgb(1 ,22 , 69) !important;
+
+
+}
+
+.price-card{
+    border-radius: 17px;
+}
+
+.ordernow{
+    /* align-content: flex-start; */
+    text-align: left !important;
+}
+/* .pricinglist{
+    text-align: justify !important;
+} */
+
+/* .list-group-flush{
+max-height: 60px;
+
+overflow-y: scroll;
+
+} */
+
+/* 
+.pricinglist::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  /* } */
+  
+  /* .pricinglist::-webkit-scrollbar-track { */
+    /* background: orange;        color of the tracking area} */
+  
+  /* .pricinglist::-webkit-scrollbar-thumb { */
+    /* background-color: blue;    color of the scroll thumb */
+    /* border-radius: 20px;       roundness of the scroll thumb */
+    /* border: 3px solid orange;  creates padding around scroll thumb * }
+
 /* Package pricing End  */
+
+
+
+
+/* combo start */
+
+.combo-main-div {
+    background-color: rgb(245,245,245);
+    /* background-color: ; */
+
+}
+
+.combo-main-heading>h1{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    /* border-radius: 30px; */
+}
+
+.combo-main-heading{
+    background-color: rgb(80,21,129);
+    border-radius: 20px 20px 0px 0px ;
+
+
+
+}
+.combo-para{
+    background-color: white !important;
+    margin-top: -10px !important;
+}
+
+
+.combo-list-heading{
+color:rgb(1 ,22 , 69) ;
+font-size: 22px;
+font-weight: 500;
+
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.combo-heading-2{
+    font-size: 50px;
+    color:rgb(1 ,22 , 69) ;
+    /* text-align: center; */
+    font-weight: bold;
+}
+.last-div .btn-1{
+    /* border:20px solid */
+    border-radius:37px;
+    width: 242px;
+    border:2px solid rgb(1 ,22 , 69);
+    color:rgb(1 ,22 , 69);
+    background-color: white;
+    font-weight: bold;
+    font-size: 22px;
+    height: 52px;
+
+}
+
+/* .last-div>span{
+    border:2px solid red;
+
+} */
+.last-div-span{
+    /* border:2px solid red; */
+    font-size: 19px;
+    color:rgb(1 ,22 , 69);
+    font-weight: normal;
+}
+
+.last-div-p{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.last-div .btn-2{
+    /* border:1px solid */
+    border-radius:37px;
+    width: 187px;
+    border:2px solid ;
+    color:white;
+    background-color: rgb(1 ,22 , 69);
+    /* font-weight: ; */
+    font-size: 17px;
+}
+
+.combo-mid-div{
+    border-radius: 0 0 20px 20px;
+}
+
+.combo-last-btn{
+    height: 40px;
+    border-radius:37px;
+    width: 225px;
+    border:2px solid ;
+    color:white;
+    background-color: rgb(243,177,26) ;
+    /* font-weight: ; */
+    font-size: 17px;
+
+}
+/* combo end*/
+
+/* inno starrt */
+.Inno-main-div{
+    background-color: rgb(1 ,22 , 69);
+
+}
+
+
+.Inno-main-div h1{
+    /* border-bottom: 2px solid; */
+    font-size: 40px;
+}
+.Inno-main-div p{
+    /* border-bottom: 2px solid; */
+    font-size: 14px;
+}
+
+.Inno-main-div .btn-2{
+    border-radius:37px;
+    width: 195px;
+    height: 50px;
+    border:2px solid ;
+    color:rgb(1 ,22 , 69);
+    background-color:white;
+    /* font-weight: ; */
+    font-size: 17px;
+    font-weight:500;
+}
+
+
+/* inno end */
+
