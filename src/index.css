@@ -17,10 +17,11 @@ ul li{
 }
 
 .b1{
-    border: 3px solid red;
+    border: 3px solid red !important;
     /* border-radius: 40px; */
     /* border: radius right 10px;; */
     /* border-radius: 20px 20px 0px 0px ; */
+    /* height: auto !important; */
 }
 
 .ib{
@@ -424,6 +425,8 @@ font-weight: 500;
 /* inno starrt */
 .Inno-main-div{
     background-color: rgb(1 ,22 , 69);
+    /* height:3000px !important; */
+    height: 400px;
 
 }
 
@@ -435,6 +438,7 @@ font-weight: 500;
 .Inno-main-div p{
     /* border-bottom: 2px solid; */
     font-size: 14px;
+    /* height:max-content !important; */
 }
 
 .Inno-main-div .btn-2{
@@ -449,6 +453,30 @@ font-weight: 500;
     font-weight:500;
 }
 
+
+
+.inno-circle {
+    width: 100px;
+    height: 100px;
+    background-color :rgb(1 ,22 , 69);
+    border-radius: 50%;
+    border:2px solid white;
+  }
+
+  .fa-shield{
+      color: yellow !important;
+  }
+    
+
+  .circle-heading{
+    width: 250px;
+    /* font-size: 202px; */
+    font-weight: bold;
+    margin-top: 35px !important;
+    margin-right: 30px !important;
+    text-align: initial;
+    font-size: 19px !important;
+  }
 
 /* inno end */
 

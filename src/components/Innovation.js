@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { MDBIcon, MDBBtn } from "mdbreact";
 
 export default class Innovation extends Component {
     render() {
@@ -16,12 +17,63 @@ export default class Innovation extends Component {
                             </div>
 
 
-                            <div className="col-md-6 col-12">
-                                <div className="row b1">
-                                    <div className="text-white col-md-6">a</div>
-                                    <div className="text-white col-md-6">a</div>
-                                    <div className=" text-white col-md-6">a</div>
-                                    <div className="text-white col-md-6">a</div>
+                            <div className="px-5  col-md-6 col-12">
+                                <div className=" row  ">
+                                    <div className="  mt-5 text-white col-md-6 col-12">
+                                        <div className="text-center">
+                                            <div className="  inno-circle">
+                                                <div className="text-center mt-4">
+                                                    <MDBIcon fab icon="expeditedssl" size="3x" />
+                                                    <p className="p-0 mt-4 circle-heading ">QUALITY CHECKED</p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div className=" mt-5 text-white col-md-6 col-12">
+                                        <div className="inno-circle">
+                                            <div className="text-center mt-4">
+                                                <MDBIcon icon="user-clock" size="3x" />
+                                                <p className="p-0 mt-4 circle-heading " >QUICK TURNAROUND TIME</p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <br />
+
+                                    <div className="mt-5 text-white col-md-6 col-12">
+                                        <div className="mt-4 inno-circle">
+                                            <div className="text-center mt-4">
+                                                <MDBIcon icon="hand-holding-usd" size="3x" />
+                                                <p className="p-0 mt-4 circle-heading ">VALUE FOR MONEY</p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className="mt-5 text-white col-md-6 col-12">
+                                        <div className="mt-4 inno-circle">
+                                            <div className="text-center mt-4">
+                                                <MDBIcon icon="trophy" size="3x" />
+                                                <p className="p-0 mt-4 circle-heading ">AWARD WINNING TEAM</p>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+
+
+
+
+
+
 
                                 </div>
 
