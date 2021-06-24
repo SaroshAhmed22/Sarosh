@@ -8,6 +8,7 @@ ul li{
 }
 
 
+
 .fwb{
     font-weight: bold;
 }
@@ -22,6 +23,7 @@ ul li{
     /* border: radius right 10px;; */
     /* border-radius: 20px 20px 0px 0px ; */
     /* height: auto !important; */
+    /* margin:0 auto !important;  */
 }
 
 .ib{
@@ -479,4 +481,109 @@ font-weight: 500;
   }
 
 /* inno end */
+
+/* histoty start */
+.history-icon{
+    color: rgb(243,177,26);
+    /* color: white;
+    border:1px solid rgb(243,177,26);
+} */
+}
+.history-heading1{
+    color: rgb(1 ,22 , 69);
+    font-size: 85px;
+
+    
+}
+
+.history-heading2{
+    color: rgb(1 ,22 , 69);
+    font-size: 25px;
+}
+
+.history-para{
+    /* color: rgb(1 ,22 , 69); */
+    font-size: 17px;
+    color: black;
+}
+.history-card1{
+    border-left: 2px solid rgb(224,224,224) !important;
+}
+
+/* .card {
+    border-left: 10px solid red;
+
+
+} */
+/* histoty end */
+
+/* Client start */
+.client-main-div{
+    background-color: rgb(249,249,249);
+}
+
+
+.client-circle{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+
+}
+
+.client-circle img{
+    /* border: 10px sol
+    id; */
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+} 
+.client-star li .star{
+    /* border-right: 10px solid; */
+    padding: 0px 1px;
+    color: rgb(243,177,26);
+
+}
+
+/* Client end */
+
+/* footer start */
+
+.footer-main-div{
+    background-color: rgb(19,23,83);
+    margin-top: -20px;
+
+}
+
+.footer-main-div h2{
+    color: rgb(243,177,26);
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+}
+.footer-hr{
+    border:7px solid rgb(243,177,26);
+
+}
+
+.footer-lst-item1a{
+    margin-top: 86px !important;
+}
+/* 
+.angle-right{
+    font-size: 10px;
+} */
+.footer-list li{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.footer-lst-item1{
+    margin-top: 20px !important;
+}
+
+.footer-list li a{
+    color: white;
+}
+
+/* footer End */
 

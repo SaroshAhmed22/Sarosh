@@ -10,6 +10,10 @@ import Test from './components/Test'
 import Combo from './components/Combo'
 import Onlybtn from './components/Onlybtn'
 import Innovation from './components/Innovation'
+import History from './components/History'
+import Client from './components/Client'
+import Industry from './components/Industry'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -24,6 +28,10 @@ const App = () => {
       <Test />
       <Combo />
       <Innovation />
+      <History />
+      <Client />
+      <Industry />
+      <Footer />
     </React.Fragment>
 
   )

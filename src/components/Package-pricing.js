@@ -3,13 +3,14 @@ import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, 
 
 const Package_pricing = (props) => {
     return (
-        <div className=" ib px-3 text-center">
-            <div className="container  mt-5">
-                <div className="row">
-                    <div className=" text-center ">
+
+        <div className="  mt-3 ib   ">
+            <div className="   mt-5">
+                <div className="  container row ">
+                    <div className="ml-4 ">
                         <div className="  col-md-6 col-12" >
                             <MDBCol >
-                                <MDBCard style={{ width: "21.5rem", height: "37rem" }} className="price-card"> 
+                                <MDBCard style={{ width: "21.5rem", height: "37rem" }} className="price-card">
                                     <MDBCardBody>
                                         <MDBCardTitle className="text-left fwb">{props.heading1}</MDBCardTitle>
                                         <MDBCardText className="text-left">
@@ -35,15 +36,15 @@ const Package_pricing = (props) => {
                                                 </li>
                                                 <li className="text-left mt-3"><MDBIcon icon="check" className="px-2" />{props.listdata4}
                                                 </li>
-                                                
+
                                             </ul>
                                         </div>
                                         <hr />
-                                        <h3 className="mt-4 text-center" style={{ fontSize: "20px" , color:'gray',  fontWeight:'bold' }}>View Detail</h3>
+                                        <h3 className="mt-4 text-center" style={{ fontSize: "20px", color: 'gray', fontWeight: 'bold' }}>View Detail</h3>
 
                                         <div className="mt-4 d-flex">
                                             <div className="mt-2">
-                                                <button rounded className="pkg-pric-btn" style={{fontSize:'13px',fontWeight:'bold'}}>Order Now</button>
+                                                <button rounded className="pkg-pric-btn" style={{ fontSize: '13px', fontWeight: 'bold' }}>Order Now</button>
                                             </div>
 
                                             <div className="pkg-pric-last mt-3 px-4">
@@ -51,7 +52,7 @@ const Package_pricing = (props) => {
                                                 <p>Live chat</p>
                                             </div>
                                         </div>
-                                        
+
                                     </MDBCardBody>
                                 </MDBCard>
                             </MDBCol>
@@ -60,6 +61,7 @@ const Package_pricing = (props) => {
                 </div>
             </div>
         </div>
+
     )
 }
 
