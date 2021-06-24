@@ -585,5 +585,10 @@ font-weight: 500;
     color: white;
 }
 
+
+.footer-hr2{
+    border:2px solid rgb(243,177,26);
+}
+
 /* footer End */
 

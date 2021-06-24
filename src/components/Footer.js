@@ -82,7 +82,11 @@ const Footer = () => {
                             </ul>
                         </div>
 
+
                     </div>
+                    <hr className=" footer-hr2" />
+
+
 
 
                 </div>
