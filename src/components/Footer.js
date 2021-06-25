@@ -59,9 +59,6 @@ const Footer = () => {
                             </ul>
                         </div>
 
-
-
-
                         <div className="mt-5 col-md-3 col-12">
 
                             <h2 style={{ fontSize: '15px' }} className="mt-5">CONTACT US</h2>
@@ -81,14 +78,35 @@ const Footer = () => {
                                 </a></li>
                             </ul>
                         </div>
-
-
                     </div>
                     <hr className=" footer-hr2" />
+                    <div className="row">
+                        <div className="col-md-4 col-12">
+                            <div className="d-flex">
+                                <div>
+                                    <img src="https://digitaloid.co/wp-content/uploads/2020/06/cropped-128-by-128-06-05.png" width="65px" height="68px" />
+                                </div>
+                                <div>
+                                    <h1 className="mt-3 font-weight-bold  footer-heading1">DIGITALOID</h1>
+                                </div>
+                            </div>
+                            <p className="mt-3 footer-para1">Copyright 2020 © All Rights Reserved. | Terms And Conditions | Privacy Policy</p>
+                        </div>
 
+                        <div className="col-md-4 text-center mt-3 col-12">
+                            <h2 className="ml-5 text-center " style={{ fontSize: '15px' }} >CONTACT US</h2>
+                            <ul className=" d-flex footer-list-last">
+                                <li className="ml-5"><a className="text-center" href="#"><MDBIcon fab icon="facebook-square" size="lg" className="last-icons text-white" /></a></li>
+                                <li className="ml-2"><a href="#"><MDBIcon fab icon="instagram" className="last-icons text-white" size="lg" /></a></li>
+                                <li className="ml-2 g0auto "><a className="last-icons" href="#" ><MDBIcon fab icon="whatsapp" className="text-white last-icons mt-2" size="lg" /></a></li>
+                            </ul>
+                        </div>
+                        <div className="col-md-4 col-12">
+                            <br/><br/>
+                            <p className="mt-3 footer-para1 text-right mt-5">Powered by Ecommerce DevOps</p>
+                        </div>
 
-
-
+                    </div>
                 </div>
 
             </div>

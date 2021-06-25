@@ -2,7 +2,12 @@
     "editor.mouseWheelZoom": true,
     "editor.wordWrap": "on",
     "editor.fontSize": 20,
-    "editor.fontFamily": "'Cascadia Code ' , Consolas, 'Courier New', monospace",
+    // "editor.fontFamily": "'cascadia code'",
+ "editor.fontFamily": "Consolas, 'Courier New', monospace",
+
     "editor.fontLigatures": true,
 }
- 
+
+
+
+
