@@ -10,7 +10,7 @@ const Package_pricing = (props) => {
                     <div className="ml-4 ">
                         <div className="  col-md-6 col-12" >
                             <MDBCol >
-                                <MDBCard  className="price-card pca b1"  style={{ width: "21.5rem", height: "37rem" }} >
+                                <MDBCard  className="price-card pca b1"  style={{ width: "21.5rem",  }} >
                                     <MDBCardBody>
                                         <MDBCardTitle className="text-left fwb">{props.heading1}</MDBCardTitle>
                                         <MDBCardText className="text-left">

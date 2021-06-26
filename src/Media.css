@@ -122,10 +122,11 @@
     .pkeg-heading1 {
         font-size: 20px;
     }
-    .pca {
+     .price-card{
         width: 15.5rem !important;
-        height: 62rem !important;
+        height: 49rem !important;
         /* border:2px solid green; */
+        /* border: none !important; */
     }
     .firstprice {
         font-size: 30px !important;
