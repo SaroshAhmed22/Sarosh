@@ -15,9 +15,9 @@ export default class Combo extends Component {
                             <p className=" pt-2 m-0 text-center combo-para">Suitable for potential super-startups and brand revamps for companies</p>
                             <div className="bg-white combo-mid-div container">
                                 <div className="row">
-                                    <div className="mt-3 col-md-3  col-12">
+                                    <div className="mt-3 text-center col-md-3  col-12">
                                         <h3 className="combo-list-heading">Logo Design</h3>
-                                        <ul className="d-flex  p-0 pricinglist">
+                                        <ul className="d-flex text-center  p-0 pricinglist">
                                             <li className=" mt-3  text-left"><MDBIcon icon="check" className="px-2" />3 Dedicated Designer
                                             </li>
                                             <li className="mt-3 text-left"><MDBIcon icon="check" className="px-2" />3 Dedicated Designer

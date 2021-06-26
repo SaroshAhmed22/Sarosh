@@ -18,10 +18,10 @@ const History = () => {
                             <MDBCard className="border-0 history-card1" style={{ width: "22rem" }}>
                                 <MDBIcon className="mt-5 ml-5 history-icon" icon="male" size="5x" />
                                 <MDBCardBody>
-                                    <MDBCardTitle className="history-heading1">2,630</MDBCardTitle>
+                                    <MDBCardTitle className="history-heading1 ">2,630</MDBCardTitle>
                                     <MDBCardText>
-                                        <h2 className="history-heading2">SATISFIED CUSTOMERS</h2>
-                                        <p className="font-weight-lighter history-para">Words can’t describe satisfaction but numbers definitely can. Here’s a look at our satisfied Customers.</p>
+                                        <h2 className="  history-para-h history-heading2">SATISFIED CUSTOMERS</h2>
+                                        <p className=" history-para-h  font-weight-lighter history-para">Words can’t describe satisfaction but numbers definitely can. Here’s a look at our satisfied Customers.</p>
                                     </MDBCardText>
 
                                 </MDBCardBody>
@@ -35,11 +35,11 @@ const History = () => {
                                 <MDBCardImage className="img-fluid" src=""
                                     waves />
                                 <MDBCardBody>
-                                    <MDBCardTitle className="history-heading1">5,444
+                                    <MDBCardTitle className="history-para-h  history-heading1  ">5,444
                                     </MDBCardTitle>
                                     <MDBCardText>
-                                        <h2 className="history-heading2">PROJECTS COMPLETED</h2>
-                                        <p className="font-weight-lighter history-para">We put a lot of detail into achieving perfection for our beloved clients.</p>
+                                        <h2 className="  history-heading2">PROJECTS COMPLETED</h2>
+                                        <p className=" history-para-h  font-weight-lighter history-para">We put a lot of detail into achieving perfection for our beloved clients.</p>
                                     </MDBCardText>
 
                                 </MDBCardBody>
@@ -52,12 +52,12 @@ const History = () => {
                             <MDBCard className="border-0 history-card1" style={{ width: "22rem" }}>
                                 <MDBIcon className="mt-5 ml-5 history-icon" icon="paper-plane" size="5x" />
                                 <MDBCardBody>
-                                    <MDBCardTitle className="history-heading1">3,125
+                                    <MDBCardTitle className="history-heading1  ">3,125
 
                                     </MDBCardTitle>
                                     <MDBCardText>
-                                        <h2 className="history-heading2">LAUNCHED PRODUCTS</h2>
-                                        <p className="font-weight-lighter history-para">With years of design experience, here’s a look at our number of launched products.</p>
+                                        <h2 className="history-heading2 history-para-h ">LAUNCHED PRODUCTS</h2>
+                                        <p className="font-weight-lighter history-para history-para-h ">With years of design experience, here’s a look at our number of launched products.</p>
                                     </MDBCardText>
 
                                 </MDBCardBody>

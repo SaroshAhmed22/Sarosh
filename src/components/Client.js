@@ -6,7 +6,7 @@ const Client = () => {
     return (
         <div className=" client-main-div">
             <div className=" py-3 container mt-5">
-                <h1 className="mt-5 text-center mt-5 font-weight-bold">Client's Love Towards Digitaloid</h1>
+                <h1 className="mt-5 text-center mt-5 font-weight-bold client-heading1">Client's Love Towards Digitaloid</h1>
                 <p className="mt-1 text-center text-justify">See what our clients have to say about our service and experience with Digitaloid. Their words of appreciation really make a difference to us. Let’s take a look!</p>
             </div>
             <div className="container">

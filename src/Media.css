@@ -1,0 +1,166 @@
+@media (max-width: 576px) {
+    /* *! nav media start for 576 */
+    .nav-list {
+        display: none !important;
+    }
+    .nav-heading h1 {
+        font-size: 28px;
+    }
+    .center-div2 {
+        /* text-align: center !important; */
+        margin-top: 20%;
+        /* border: 1px solid orange; */
+        /* align-content: center; */
+        /* width: 60%; */
+        /* text-align: center !important; */
+        /* align-content: center; */
+        /* align-content: center !important; */
+        /* float: left;
+    position: absolute;
+    
+    top:60% !important;
+    left:67% !important;
+    opacity: 1;
+    
+ */
+        /* width: 300px;
+    height: 300px; */
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* width:fit-content ; */
+        /* width: 50%; */
+    }
+    .center-div {
+        margin-top: 50%;
+        width: 80%;
+        height: auto;
+        position: absolute;
+        top: 47%;
+        left: 52%;
+        transform: translate(-50%, -50%) !important;
+        -ms-transform: translate(-50%, -50%) !important;
+        -webkit-transform: translate(-50%, -50%) !important;
+        /* width: ; */
+        align-content: center;
+    }
+    .nav-heading p {
+        font-size: 15px;
+        text-align: start;
+    }
+    .nav-btn2 {
+        width: 270px;
+        height: 52px;
+        margin-left: 0 !important;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .nav-btn1 {
+        width: 270px;
+    }
+    /* *! nav media End for 576 */
+    /* *! Services media  Start for 576 */
+    .servive-heading {
+        font-size: 20px;
+    }
+    .servive-para {
+        font-size: 15px;
+    }
+    .ser-all-media {
+        margin-top: 15px;
+    }
+    .service-head-2 {
+        font-size: 33px;
+    }
+    .service-sec3b {
+        background-color: rgb(80, 21, 129);
+        margin-top: 0px !important;
+        flex-direction: column;
+    }
+    .service-sec3a h4, h5 {
+        font-size: 20px;
+        /* margin-left: 0px !important; */
+        /* border: 1px solid red !important; */
+    }
+    .service-sec3ah4 {
+        margin-left: 0px !important;
+    }
+    .service-sec3a h1 {
+        font-size: 26px;
+    }
+    .btn-rounded2 {
+        border: 2px solid !important;
+        /* width: 5px !important; */
+        height: 40px;
+        width: 180px;
+        /* padding: 5px !important; */
+    }
+    .deep-orange {
+        background-color: rgb(80, 21, 129) !important;
+        padding: 0px !important;
+    }
+    .deep-orange2 {
+        background-color: rgb(80, 21, 129) !important;
+        padding: 0px !important;
+        color: white !important;
+    }
+    .edit1 {
+        color: black !important;
+    }
+    /* *! Services media end for 576 */
+    /*  *? Portfolio */
+    /* *! Portfolio media start for 576 */
+    .portfolio-main-heading {
+        font-size: 20px;
+    }
+    .portfolio-main-heading2 {
+        font-size: 16px;
+    }
+    /* *! portfolio media end for 576 */
+    /*  */
+    /* *? Package */
+    /* *! Package media start for 576 */
+    .pkeg-heading1 {
+        font-size: 20px;
+    }
+    .pca {
+        width: 15.5rem !important;
+        height: 62rem !important;
+        /* border:2px solid green; */
+    }
+    .firstprice {
+        font-size: 30px !important;
+    }
+    /* *! Package media end for 576 */
+    /* *! Innovation media start for 576 */
+    .Inno-main-div {
+        height: 1200px;
+    }
+    /* *! Innovation media end for 576 */
+    /* *? History Component */
+    /* *! history media start for 576 */
+    .history-card1 {
+        width: 15rem !important;
+    }
+    .history-heading1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .history-para-h {
+        /* font-size: 50px; */
+        text-align: center;
+    }
+    /* *! history media end for 576 */
+    /* *? client Component */
+    /* *! client media start for 576 */
+    .client-heading1 {
+        font-size: 25px;
+    }
+    .card {
+        height: 25rem !important;
+    }
+    .industry-heading1 {
+        font-size: 23px;
+    }
+
+    /* *! client media end for 576 */
+}

@@ -8,7 +8,7 @@ const Portfolio = () => {
     return (
         <div>
             <h1 className="mt-4 text-center portfolio-main-heading">Have a Look at What We Do</h1>
-            <h5 className="container text-center">Have a Look at What We Do
+            <h5 className="container text-center  portfolio-main-heading2">Have a Look at What We Do
                 Our team consists of individuals of multidisciplinary talents. We were born to build inspiring and influential brands that deliver memorable and transformative digital experiences.</h5>
 
             <div className="container mt-5 d-flex portfolio">
