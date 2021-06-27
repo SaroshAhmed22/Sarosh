@@ -3,7 +3,7 @@
   "editor.wordWrap": "on",
   "editor.fontSize": 20,
   // "editor.fontFamily": "'cascadia code'",
-  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Fira Code' , Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
