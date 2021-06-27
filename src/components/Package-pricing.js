@@ -4,14 +4,14 @@ import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, 
 const Package_pricing = (props) => {
     return (
 
-        <div className="  mt-3 ib   ">
+        <div className="  mt-3 ib  ">
             <div className="   mt-5">
                 <div className="  container row ">
-                    <div className="ml-4 ">
-                        <div className="  col-md-6 col-12" >
-                            <MDBCol >
-                                <MDBCard  className="price-card pca b1"  style={{ width: "21.5rem",  }} >
-                                    <MDBCardBody>
+                    <div className="ml-4  " >
+                        <div className=" col-md-6 col-12" >
+                            <MDBCol  >
+                                <MDBCard className="price-card " style={{ width: "21.5rem" }} >
+                                    <MDBCardBody  >
                                         <MDBCardTitle className="text-left fwb">{props.heading1}</MDBCardTitle>
                                         <MDBCardText className="text-left">
                                             {props.heading2}
@@ -42,7 +42,7 @@ const Package_pricing = (props) => {
                                         <hr />
                                         <h3 className="mt-4 text-center" style={{ fontSize: "20px", color: 'gray', fontWeight: 'bold' }}>View Detail</h3>
 
-                                        <div className="mt-4 d-flex">
+                                        <div className="mt-4 mb-5  pca d-flex">
                                             <div className="mt-2">
                                                 <button rounded className="pkg-pric-btn" style={{ fontSize: '13px', fontWeight: 'bold' }}>Order Now</button>
                                             </div>

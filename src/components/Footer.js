@@ -10,7 +10,7 @@ const Footer = () => {
             <div className=" footer-main-div container-fluid">
                 <div className="container">
                     <div className="row">
-                        <div className="mt-5 col-md-3 col-12">
+                        <div className="mt-5 col-md-3 col-12 footer-media">
                             <h2 style={{ fontSize: '15px' }} className="mt-5">SERVICES</h2>
                             <ul className="footer-list p-0">
                                 <li className=" footer-lst-item1 mt-2" ><MDBIcon className="text-white angle-right" icon="angle-right" /><a className="mx-2" href="#">Logo Design</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
                         </div>
 
 
-                        <div className="mt-5 col-md-3 col-12">
+                        <div className="mt-5 col-md-3 col-12 footer-media">
                             <ul className="mt-5 footer-list p-0">
                                 <li className=" footer-lst-item1a " ><MDBIcon className="text-white angle-right" icon="angle-right" /><a className="mx-2" href="#">SEO</a></li>
 
@@ -43,7 +43,7 @@ const Footer = () => {
 
 
 
-                        <div className="mt-5 col-md-3 col-12">
+                        <div className="mt-5 col-md-3 col-12 footer-media">
 
                             <h2 style={{ fontSize: '15px' }} className="mt-5">QUICK LINKS</h2>
                             <ul className="footer-list p-0">
@@ -59,7 +59,7 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className="mt-5 col-md-3 col-12">
+                        <div className="mt-5 col-md-3 col-12 footer-media">
 
                             <h2 style={{ fontSize: '15px' }} className="mt-5">CONTACT US</h2>
                             <ul className="footer-list p-0">
@@ -93,8 +93,8 @@ const Footer = () => {
                             <p className="mt-3 footer-para1">Copyright 2020 © All Rights Reserved. | Terms And Conditions | Privacy Policy</p>
                         </div>
 
-                        <div className="col-md-4 text-center mt-3 col-12">
-                            <h2 className="ml-5 text-center " style={{ fontSize: '15px' }} >CONTACT US</h2>
+                        <div className="col-md-4 footer-last text-center mt-3 col-12">
+                            <h2 className="ml-5  text-center " style={{ fontSize: '15px' }} >CONTACT US</h2>
                             <ul className=" d-flex footer-list-last">
                                 <li className="ml-5"><a className="text-center" href="#"><MDBIcon fab icon="facebook-square" size="lg" className="last-icons text-white" /></a></li>
                                 <li className="ml-2"><a href="#"><MDBIcon fab icon="instagram" className="last-icons text-white" size="lg" /></a></li>
