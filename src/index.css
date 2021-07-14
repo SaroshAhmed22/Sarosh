@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 /* *! font-family: 'Ubuntu', sans-serif; */
-
+body {
+  overflow-x: hidden;
+}
 * {
   box-sizing: border-box !important;
   /* overflow-x: hidden; */
@@ -14,6 +16,10 @@ ul li {
   font-family: "Ubuntu", sans-serif;
 }
 
+/* ul li:hover > ul li a {
+  color: red !important;
+} */
+
 .fwb {
   font-weight: bold;
 }
@@ -21,17 +27,15 @@ ul li {
 /* .navbar{
     background-color:blue;
 } */
-
+.tchange {
+  /* border: 3px solid red !important; */
+  background-color: grey !important;
+  /* outline: hotpink !important; */
+  border-color: lightgreen !important;
+}
 .b1 {
   border: 3px solid red !important;
-  /* border-radius: 40px; */
-  /* border: radius right 10px;; */
-  /* border-radius: 20px 20px 0px 0px ; */
-  /* height: auto !important; */
-  /* margin:0 auto !important;  */
-  /* background-color: pink !important; */
-  /* text-shadow: #979797; */
-  /* color:red !important;  */
+  color: orange !important;
 }
 
 .ib {
@@ -159,6 +163,10 @@ ul li {
   font-size: 20px;
 }
 
+.header-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
 .nav-btn1 {
   width: 205px;
   height: 52px;
@@ -251,10 +259,6 @@ ul li {
   background-color: rgb(85, 99, 131) !important;
 }
 
-.service-sec3a {
-  background-color: rgb(80, 21, 129);
-}
-
 .btn-rounded2 {
   /* background-color: rgb(243, 177, 26); */
   border-radius: 30px 30px 30px 30px;
@@ -264,8 +268,35 @@ ul li {
   background-color: rgb(39, 43, 123) !important;
 }
 
+.service-sec3 {
+  /* background-image: url("https://digitaloid.co/wp-content/uploads/2020/11/btn-background.jpg"); */
+  background-image: linear-gradient(
+      to right,
+      rgba(88, 14, 128, 0.7),
+      rgba(1, 22, 69, 0.7)
+    ),
+    url("https://digitaloid.co/wp-content/uploads/2020/11/btn-background.jpg");
+}
+
+.edit1 {
+  color: white !important;
+}
+.service-2btn {
+  background-color: rgb(223, 223, 225) !important;
+  color: rgb(39, 43, 123) !important;
+}
+
+.service-2btn:hover {
+  background-color: rgb(1, 22, 69) !important;
+  color: white !important;
+}
+
 .service-sec3b {
-  background-color: rgb(39, 43, 123);
+  /* column-gap: 10px; */
+  /* row-gap: 20px !important; */
+  align-items: center;
+  /* align-content: stretch !important; */
+  justify-content: space-around;
 }
 
 .service-last-btn {
@@ -279,7 +310,6 @@ ul li {
 
 .service-last-btn:hover {
   background-color: rgb(1, 22, 69) !important;
-  /* color: white; */
 }
 
 /* 
@@ -313,8 +343,12 @@ ul li {
   background-color: rgb(1, 22, 69) !important;
   height: 30px;
   /* width: auto; */
-  width: 84px;
+  width: 95px;
   padding-top: 8px;
+}
+
+.portbtn_ch {
+  background-color: rgb(1, 22, 69) !important;
 }
 
 .portfolio-btn1a {
@@ -322,7 +356,7 @@ ul li {
   background-color: white !important;
   height: 30px;
   /* width: auto; */
-  width: 84px;
+  width: 95px;
   padding-top: 8px;
 }
 
@@ -331,7 +365,6 @@ ul li {
 }
 
 .package-btns {
-  background-color: rgb(1, 22, 69) !important;
   border-radius: 20px;
   height: 35px;
 }
@@ -569,20 +602,31 @@ overflow-y: scroll;
   /* font-weight: ; */
   font-size: 17px;
 }
+.b3 {
+  border: 26px solid transparent;
+}
+.inno3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*   *! combo end*/
-
 /* *! inno starrt */
 
 .Inno-main-div {
-  background-color: rgb(1, 22, 69);
-  /* height:3000px !important; */
-  height: 400px;
+  height: max-content !important;
+  background: linear-gradient(
+    to top left,
+    rgb(1, 22, 69) 50%,
+    rgba(1, 22, 69, 0.9) 50%
+  );
 }
 
 .Inno-main-div h1 {
   /* border-bottom: 2px solid; */
   font-size: 40px;
+  font-weight: bold;
 }
 
 .Inno-main-div p {
@@ -597,6 +641,7 @@ overflow-y: scroll;
   height: 50px;
   border: 2px solid;
   color: rgb(1, 22, 69);
+  /* color:rgba(red, green, blue, alpha) */
   background-color: white;
   /* font-weight: ; */
   font-size: 17px;
@@ -616,12 +661,11 @@ overflow-y: scroll;
 }
 
 .circle-heading {
-  width: 250px;
-  /* font-size: 202px; */
+  /* width: max-content !important; */
+  /* border: 1px solid; */
   font-weight: bold;
   margin-top: 35px !important;
-  margin-right: 30px !important;
-  text-align: initial;
+
   font-size: 19px !important;
 }
 
@@ -644,6 +688,7 @@ overflow-y: scroll;
 .history-heading2 {
   color: rgb(1, 22, 69);
   font-size: 25px;
+  font-weight: bold !important;
 }
 
 .history-para {
@@ -790,3 +835,46 @@ overflow-y: scroll;
 } */
 
 /* *!  footer End */
+
+/*  */
+#apppage .gradient {
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    45deg,
+    from(rgba(42, 27, 161, 0.7)),
+    to(rgba(29, 210, 177, 0.7))
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(42, 27, 161, 0.7),
+    rgba(29, 210, 177, 0.7) 100%
+  );
+}
+
+#apppage .view {
+  background-image: url("https://mdbcdn.b-cdn.net/img/Photos/Others/architecture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+#apppage h6 {
+  line-height: 1.7;
+}
+/*  */

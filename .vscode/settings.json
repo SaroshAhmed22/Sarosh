@@ -1,9 +1,9 @@
 {
   "editor.mouseWheelZoom": true,
   "editor.wordWrap": "on",
-  "editor.fontSize": 20,
+  "editor.fontSize": 22,
   // "editor.fontFamily": "'cascadia code'",
-  "editor.fontFamily": "'Fira Code' , Consolas, 'Courier New', monospace",
+  "editor.fontFamily": " Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "better-comments.multilineComments": true,
   "better-comments.highlightPlainText": false,
@@ -70,5 +70,9 @@
     //     "editor.renderWhitespace": "all",
     // }
   ],
-  "editor.formatOnSave": true
+     "editor.formatOnSave": true,
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
+    // "powermode.shakeIntensity": 15,       
+    // "powermode.gifMode": "restart",   
 }

@@ -1,5 +1,93 @@
-@media (max-width: 576px) {
+@media only screen and (min-width: 1070px) and (max-width: 1225px) {
+  .nav-heading h1 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .firstprice {
+    /* border: 1px solid red; */
+    font-size: 25px !important;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 816px) {
+  .header-buttons {
+    display: flex;
+
+    width: fit-content;
+    justify-content: space-evenly;
+  }
+
+  .nav-list {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 681px) {
+  .nav-heading {
+    margin-top: -4% !important;
+    /* border: 1px solid; */
+  }
+
+  .nav-btn2 {
+    width: 200px !important;
+    height: 52px;
+    /* border: 10px solid; */
+  }
+  .nav-btn1 {
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 1070px) {
+  .nav-heading h1 {
+    font-size: 40px;
+  }
+
+  .nav-heading {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 694px) {
+  .nav-heading h1 {
+    font-size: 30px;
+  }
+
+  .nav-list {
+    display: none !important;
+  }
+
+  .nav-btn2 {
+    width: 200px !important;
+    height: 52px;
+    /* border: 10px solid; */
+  }
+  .nav-btn1 {
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 574px) {
   /* *! nav media start for 576 */
+  .header-buttons {
+    /* justify-content: space-evenly; */
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column !important;
+    /* justify-items: first baseline; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    /* display: inline-block; */
+    /* text-justify: center; */
+    align-items: center;
+  }
+  .nav-btn2 {
+    margin-top: 10px;
+    /* border: 1px solid red; */
+  }
+
   .nav-list {
     display: none !important;
   }
@@ -12,7 +100,7 @@
     transform: translate(-50%, -50%);
   }
   .center-div {
-    margin-top: 50%;
+    margin-top: 40%;
     width: 80%;
     height: auto;
     position: absolute;
@@ -29,14 +117,12 @@
     text-align: start;
   }
   .nav-btn2 {
-    width: 270px;
+    width: 200px;
     height: 52px;
-    margin-left: 0 !important;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    /* border: 10px solid; */
   }
   .nav-btn1 {
-    width: 270px;
+    width: 200px;
   }
   /* *! nav media End for 576 */
   /* *! Services media  Start for 576 */
@@ -106,15 +192,51 @@
   }
   .price-card {
     width: 15.5rem !important;
+    /* height: auto !important; */
+    /* border: 2px solid pink; */
   }
   .firstprice {
     font-size: 30px !important;
   }
+
   /* *! Package media end for 576 */
   /* *! Innovation media start for 576 */
-  .Inno-main-div {
-    height: 1200px;
+  .inno-circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(1, 22, 69);
+    border-radius: 50%;
+    border: 2px solid white;
   }
+  .inno-all-icons {
+    margin-top: 13% !important;
+    text-align: center !important;
+    font-size: 20px !important;
+    /* margin: 0 auto !important; */
+  }
+
+  .circle-heading {
+    width: max-content !important;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px !important;
+    font-size: 14px !important;
+  }
+  .inno2 {
+    margin-top: -5% !important;
+  }
+
+  .Inno-main-div h1 {
+    font-size: 25px !important;
+  }
+
+  .Inno-main-div p {
+    font-size: 13px !important;
+  }
+  .inobt1 {
+    text-align: center;
+  }
+
   /* *! Innovation media end for 576 */
   /* *? History Component */
   /* *! history media start for 576 */
@@ -133,6 +255,14 @@
   .history-para-h {
     text-align: center;
   }
+  .history-div h1 {
+    font-size: 21px;
+  }
+
+  .history-div p {
+    font-size: 15px;
+  }
+
   /* *! history media end for 576 */
   /* *? client Component */
   /* *! client media start for 576 */
@@ -153,10 +283,10 @@
     margin-top: -8% !important;
   }
 
-  .port-img-div img {
+  /* .port-img-div img {
     width: 310px;
     height: 310px;
-  }
+  } */
 
   .port-main-div {
     height: 130rem;

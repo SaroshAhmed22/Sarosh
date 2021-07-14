@@ -1,29 +1,74 @@
-import React, { Component } from "react";
-import Lightbox from "react-image-lightbox";
+import React, { useState } from "react";
+import Web from "./Portfolio/Web";
+import Food from "./Portfolio/Food";
+import RealState from "./Portfolio/Real_State";
+import Fitness from "./Portfolio/Fitness";
+// import { assertFunctionExpression } from "@babel/types";
+import Tech from "./Portfolio/Tech";
+import Sports from "./Portfolio/Sports";
+import Automate from "./Portfolio/Automate";
+import Apparel from "./Portfolio/Apparel";
+import Social from "./Portfolio/Social";
 
-const images = [
-  "https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-1.jpg",
-  "https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-1.png",
-  "https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-2.jpg",
-  "https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-2.png",
-  "https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-3.jpg",
-  "https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-4.jpg",
-];
+// const bgchanged = () => {
+//   backgroundColor: "red";
+// };
 
-export default class Portfolio extends Component {
-  constructor(props) {
-    super(props);
+const Portfolio = () => {
+  // !Web Hook
+  const [Webs, setWebs] = useState(<Web />);
+  const WebChange = () => {
+    setWebs(<Web />);
+    let web = document.getElementById("web");
+    web.classList.add("portbtn_ch");
+  };
 
-    this.state = {
-      photoIndex: 0,
-      isOpen: false,
-    };
-  }
+  // !Food Hook
 
-  render() {
-    const { photoIndex, isOpen } = this.state;
-    return (
-      <div className=" port-main-div">
+  const FoodsChange = () => {
+    setWebs(<Food />);
+    let food = document.getElementById("food");
+    food.classList.add("portbtn_ch");
+  };
+
+  // !RealState Hook
+  const RealStatesChange = () => {
+    setWebs(<RealState />);
+  };
+
+  // !Fitness Hook
+  const Fitness_change = () => {
+    setWebs(<Fitness />);
+  };
+
+  // !Tech Hook
+  const Techchange = () => {
+    setWebs(<Tech />);
+  };
+
+  // !Sports Hook
+  const Sport_change = () => {
+    setWebs(<Sports />);
+  };
+
+  // !Automate Hook
+  const Automate_change = () => {
+    setWebs(<Automate />);
+  };
+
+  // !Apparel Hook
+  const Apparel_change = () => {
+    setWebs(<Apparel />);
+  };
+
+  // !Social Hook
+  const Social_change = () => {
+    setWebs(<Social />);
+  };
+
+  return (
+    <div>
+      <div className=" port-main-div" style={{ height: "auto" }}>
         <h1 className="mt-4 text-center portfolio-main-heading">
           Have a Look at What We Do
         </h1>
@@ -34,163 +79,77 @@ export default class Portfolio extends Component {
           experiences.
         </h5>
 
-        <div className="container portfolio-all-btns">
+        <div className="container text-center portfolio-all-btns">
           <span
+            id="web"
             type="button"
-            className=" mt-2 ml-3  badge badge-pill badge-primary portfolio-btn1"
+            onClick={WebChange}
+            className=" mt-3 ml-3  badge badge-pill badge-primary portfolio-btn1"
           >
             Web
           </span>
 
           <span
+            id="food"
+            onClick={FoodsChange}
             type="button"
-            className=" mt-3  ml-3  badge badge-pill badge-primary portfolio-btn1a"
+            className=" mt-3  ml-3  badge badge-pill  portfolio-btn1a"
           >
             Food
           </span>
 
           <span
+            onClick={RealStatesChange}
             type="button"
-            className=" ml-3  badge badge-pill badge-primary portfolio-btn1a"
+            className=" ml-3 mt-3 badge badge-pill badge-primary portfolio-btn1a"
           >
             Real State
           </span>
 
           <span
+            onClick={Fitness_change}
             type="button"
-            className=" mt-2 ml-3 badge badge-pill badge-primary portfolio-btn1a"
+            className=" mt-3 ml-3 badge badge-pill badge-primary portfolio-btn1a"
           >
             Fitness
           </span>
 
           <span
+            onClick={Techchange}
             type="button"
-            className="ml-3  badge badge-pill badge-primary portfolio-btn1a"
+            className="ml-3 mt-3 badge badge-pill badge-primary portfolio-btn1a"
           >
             Technology
           </span>
 
           <span
+            onClick={Sport_change}
             type="button"
-            className="ml-3  badge badge-pill badge-primary portfolio-btn1a"
+            className="ml-3 mt-3 badge badge-pill badge-primary portfolio-btn1a"
           >
             Sports
           </span>
 
           <span
+            onClick={Automate_change}
             type="button"
-            className=" mt-2 ml-3 badge badge-pill badge-primary portfolio-btn1a"
+            className=" mt-3 ml-3 badge badge-pill badge-primary portfolio-btn1a"
           >
             Automative
           </span>
 
           <span
+            onClick={Apparel_change}
             type="button"
-            className="ml-3  badge badge-pill badge-primary portfolio-btn1a"
+            className="ml-3 mt-3 badge badge-pill badge-primary portfolio-btn1a"
           >
             Apparel
           </span>
-
-          <span
-            type="button"
-            className="ml-3  badge badge-pill badge-primary portfolio-btn1a"
-          >
-            Social
-          </span>
-
-          <span
-            type="button"
-            className="mt-2 ml-3 badge badge-pill badge-primary portfolio-btn1a"
-          >
-            Music
-          </span>
-
-          <span
-            type="button"
-            className="  ml-3  badge badge-pill badge-primary portfolio-btn1a"
-          >
-            Game
-          </span>
         </div>
-
-        <div className="container port-img-div mt-4">
-          <div className="row ">
-            <div className="col-md-4 col-12  ">
-              <img
-                src="https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-1.jpg "
-                className=" "
-                width="370px"
-                height="370px"
-                onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
-              />
-            </div>
-
-            <div className="col-md-4 col-12">
-              <img
-                src="https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-1.png "
-                width="370px"
-                height="370px"
-                onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
-              />
-            </div>
-
-            <div className="col-md-4 col-12">
-              <img
-                src="https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-2.jpg "
-                width="370px"
-                height="370px"
-                onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
-              />
-            </div>
-
-            <div className="col-md-4 col-12 mt-2">
-              <img
-                src="https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-2.png "
-                width="370px"
-                height="370px"
-                onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
-              />
-            </div>
-
-            <div className="col-md-4 col-12 mt-2">
-              <img
-                src="https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-3.jpg "
-                width="370px"
-                height="370px"
-                onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
-              />
-            </div>
-
-            <div className="col-md-4 col-12 mt-2">
-              <img
-                src="https://digitaloid.co/wp-content/uploads/2020/11/eCommerce0-4.jpg "
-                width="370px"
-                height="370px"
-                onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}
-              />
-            </div>
-          </div>
-        </div>
-
-        {isOpen && (
-          <Lightbox
-            mainSrc={images[photoIndex]}
-            nextSrc={images[(photoIndex + 1) % images.length]}
-            prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-            onCloseRequest={() => this.setState({ isOpen: false })}
-            onMovePrevRequest={() =>
-              this.setState({
-                photoIndex: (photoIndex + images.length - 1) % images.length,
-              })
-            }
-            onMoveNextRequest={() =>
-              this.setState({
-                photoIndex: (photoIndex + 1) % images.length,
-              })
-            }
-          />
-        )}
       </div>
-    );
-  }
-}
+      <div>{Webs}</div>
+    </div>
+  );
+};
+
+export default Portfolio;
