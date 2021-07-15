@@ -10,7 +10,6 @@ import {
 } from "mdbreact";
 import "./index.css";
 import "./Media.css";
-// import Test from "./components/Test";
 import Navbar from "./components/Navbar";
 import Servives from "./components/Services";
 import logo from "./logo.png";
@@ -47,7 +46,6 @@ const App = () => {
       <Client />
       <Industry />
       <Footer />
-      {/* <Test /> */}
     </div>
   );
 };
