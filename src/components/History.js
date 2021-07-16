@@ -1,15 +1,12 @@
 import React from "react";
 import {
-  MDBBtn,
   MDBCard,
   MDBCardBody,
   MDBCardImage,
   MDBCardTitle,
   MDBCardText,
   MDBCol,
-  MDBIcon,
 } from "mdbreact";
-// import Img1 from '../components/'
 
 const History = () => {
   return (

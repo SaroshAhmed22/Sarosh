@@ -27,10 +27,11 @@ export default class Automate extends Component {
         <div>
           <div className="container   port-img-div mt-4">
             <div className="row ">
-              {images.map((img) => {
+              {images.map((img, index) => {
                 return (
                   <div className=" mt-2 text-center col-md-4 col-12  ">
                     <img
+                      key={index}
                       src={img}
                       className="img-fluid "
                       width="370px"

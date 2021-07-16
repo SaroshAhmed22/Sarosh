@@ -1,12 +1,4 @@
 import React from "react";
-import {
-  MDBRow,
-  MDBCol,
-  MDBCard,
-  MDBCardBody,
-  MDBIcon,
-  MDBBtn,
-} from "mdbreact";
 
 const OurPrice = () => {
   return (

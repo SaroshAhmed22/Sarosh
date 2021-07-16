@@ -1,14 +1,5 @@
 import React, { Component } from "react";
-import {
-  MDBBtn,
-  MDBCard,
-  MDBCardBody,
-  MDBCardImage,
-  MDBCardTitle,
-  MDBCardText,
-  MDBCol,
-  MDBIcon,
-} from "mdbreact";
+import { MDBIcon } from "mdbreact";
 
 export default class Combo extends Component {
   render() {

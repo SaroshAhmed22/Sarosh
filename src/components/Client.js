@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  MDBBtn,
-  MDBCard,
-  MDBCardBody,
-  MDBCardImage,
-  MDBCardTitle,
-  MDBCardText,
-  MDBCol,
-  MDBIcon,
-} from "mdbreact";
+import { MDBIcon } from "mdbreact";
 
 const Client = () => {
   return (
